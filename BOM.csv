@@ -1,10 +1,11 @@
-Quantity,Part
-2,Cherry MX Switches
-2,DSA Keycaps
-4,M3x5x4 Heatset Inserts
-4,M3x16 mm Bolts
-1,SK6812 MINI-E LED
-1,0.91in 128x32 OLED Display
-2,EC11 Rotary Encoders
-1,XIAO RP2040
-1,Case (4 printed parts)
+Quantity,Part,Cost (source)
+2,Cherry MX Switches,in kit
+2,DSA Keycaps,in kit
+4,M3x5x4 Heatset Inserts,in kit
+4,M3x16 mm Bolts,in kit
+1,SK6812 MINI-E LED,in kit
+1,0.91in 128x32 OLED Display,in kit
+2,EC11 Rotary Encoders,in kit
+1,XIAO RP2040,in kit
+1,Case (4 printed parts), $10 (printing legion) 
+1,Soldering Iron & Solder, $15 (Amazon)
