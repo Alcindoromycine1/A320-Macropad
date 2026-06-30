@@ -7,9 +7,10 @@ A320 Style Speed/Heading Selector built with 2 rotary encoders, 2 pushbuttons, a
 - 1x SK6812 Mini-e LEDs. It is a status light for the LOC button
 
 # CAD Model:
-Everything fits together using 5 M3 Bolts and heatset inserts. 4 for the case, one for the PCB. Also, it has a 5 degree tilt
-
-It has 3 separate printed pieces. The angle, the base where the PCB sits, and the top cover. it also has 2 acrylic plates. One to cover the electronics, the other to hold the switches
+This project is held together using M3 Screws and Heatset inserts
+<img src=assets/cad.png alt="Schematic" width="500"/>
+<img src=assets/cad_nolid.png alt="Schematic" width="500"/>
+It has 4 separate printed pieces. The base where the PCB is held, the lid, and two knobs to rotate the rotary encoders.
 
 Schematic
 
