@@ -7,49 +7,40 @@ A320 Style Speed/Heading Selector built with 2 rotary encoders, 2 pushbuttons, a
 - 1x SK6812 Mini-e LEDs. It is a status light for the LOC button
 
 # CAD Model:
-This project is held together using M3 Screws and Heatset inserts
-<img src=assets/cad.png alt="Schematic" width="500"/>
-<img src=assets/cad_nolid.png alt="Schematic" width="500"/>
+This project was designed in Fusion 360 and is held together using M3 Screws and Heatset inserts.
+
+<img src=assets/cad.png alt="Schematic" width="500"/><img src=assets/cad_nolid.png alt="Schematic" width="500"/>
+
 It has 4 separate printed pieces. The base where the PCB is held, the lid, and two knobs to rotate the rotary encoders.
+The knobs were used from Liam Egger's [project](https://www.printables.com/model/601969-autopilot-panel-fly-by-wire-a320neo/files) on printables.com
+
+<img src=assets/knobs.png alt="Schematic" width="500"/>
+
+# PCB
+Here's the PCB for this project. It was made in KiCad.
 
 Schematic
 
-Made in Fusion360. Nifty
+<img src=assets/schematic.png alt="Schematic" width="500"/>
 
 PCB
-Here's my PCB! It was made in KiCad. The silkscreen was imported from a Figma image.
 
-Schematic Schematic
+<img src=assets/pcb.png alt="Schematic" width="500"/>
 
-PCB Schematic
-
-I used MX_V2 for the keyswitch footprints. I think in retrospect, I should've added a ground plane
+I used the footprints and schematic parts from Hack Club's wesbite. The OLED screen could have been better modelled, but that is a problem for the future.
 
 Firmware Overview
-This hackpad uses QMK firmware for everything.
-
-the rotary encoder changes volume. press to mute
-The 4 keys currently act as macros I dynamically change in VIA.
-The OLED is a cat!! Bongocat!! :3
-Bongo Cat
-
-I might add more in the future! That's it for now
+This hackpad, being a interface for a flight simulator, will use MobiFlight to interact with the simulator.
 
 BOM:
-Here should be everything you need to make this hackpad
 
-4x Cherry MX Switches
-4x DSA Keycaps
-5x M3x5x4 Heatset inserts
-3x M3x16mm SHCS Bolts
-2X M3x12mm SHCS Bolts
-5x 1N4148 DO-35 Diodes.
-2x WS2812B LEDs
-1x 0.91" 128x32 OLED Display
-1x EC11 Rotary Encoder
-1x XIAO RP2040
-1x Case (3 printed parts, 2 laser cut parts)
-Extra stuff
-Honestly I'm not quite too sure what to add here. Favourite meme? a joke?? Uhhh you can imagine it
+- 2x Cherry MX Switches
+- 2x DSA Keycaps
+- 4x M3x5x4 Heatset inserts
+- 4x M3x16mm  Bolts
+- 1x SK6812 MINI-E LEDs
+- 1x 0.91" 128x32 OLED Display
+- 2x EC11 Rotary Encoder
+- 1x XIAO RP2040
+- 1x Case (4 printed parts)
 
-Oh fun fact: I built mine in SF the day before github universe LOL
